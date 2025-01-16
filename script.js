@@ -147,14 +147,34 @@
 // }, 2000);
 // console.log("end");
 
-function fetchData(callback) {
-  console.log("fetching data.....");
-  setTimeout(() => {
-    const data = { id: 1, name: "mohamud" };
-    callback(data);
-  }, 2000);
-}
+// function fetchData(callback) {
+//   console.log("fetching data.....");
+//   setTimeout(() => {
+//     const data = { id: 1, name: "mohamud" };
+//     callback(data);
+//   }, 2000);
+// }
 
-fetchData((data) => {
-  console.log("data received", data);
-});
+// fetchData((data) => {
+//   console.log("data received", data);
+// });
+// document.getElementById("btn").addEventListener("click", () => {
+//   console.log("button clicked");
+// });
+
+//using callback with .map
+// const numbers = [1, 2, 3, 4];
+// const squares = numbers.map((num) => num * num);
+// console.log(squares);
+// const numbers = [1, 2, 3, 4, 5];
+
+// const evenNumbers = numbers.filter((num) => num % 2 === 0); // [2, 4]
+
+// console.log(evenNumbers);
+
+const numbers = [1, 2, 3, 4, 5];
+const sum = numbers.reduce(
+  (accumulator, currentValue) => accumulator + currentValue,
+  0
+);
+console.log(sum);
