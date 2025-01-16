@@ -132,3 +132,29 @@
 // greet("aisha", sayGoodBye);
 // greet("amina", sayGoodBye);
 // greet("mohamud", sayGoodBye);
+// function calculate(num1, num2, operation) {
+//   return operation(num1, num2);
+// }
+// const add = (a, b) => a + b;
+// const multiply = (a, b) => a * b;
+
+// console.log(calculate(4, 3, multiply));
+// console.log(calculate(4, 3, add));
+
+// console.log("start");
+// setTimeout(() => {
+//   console.log("this runs after 2 seconds");
+// }, 2000);
+// console.log("end");
+
+function fetchData(callback) {
+  console.log("fetching data.....");
+  setTimeout(() => {
+    const data = { id: 1, name: "mohamud" };
+    callback(data);
+  }, 2000);
+}
+
+fetchData((data) => {
+  console.log("data received", data);
+});
