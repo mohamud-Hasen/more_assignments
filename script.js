@@ -172,9 +172,13 @@
 
 // console.log(evenNumbers);
 
+// const numbers = [1, 2, 3, 4, 5];
+// const sum = numbers.reduce(
+//   (accumulator, currentValue) => accumulator + currentValue,
+//   0
+// );
+// console.log(sum);
+
 const numbers = [1, 2, 3, 4, 5];
-const sum = numbers.reduce(
-  (accumulator, currentValue) => accumulator + currentValue,
-  0
-);
-console.log(sum);
+const oddNumbers = numbers.map((num) => num % 2 === 1); // [
+console.log(oddNumbers);
