@@ -199,17 +199,17 @@
 //   console.log("the tempreture is normal today");
 // }
 
-const degreeSymbol = "\u00b0";
-const fahrenheit = -2;
-const celsious = ((fahrenheit - 32) * 5) / 9;
-if (celsious < 0) {
-  console.log(
-    `it is freezing! the temperature is ${celsious.toFixed(2)} ${degreeSymbol}f`
-  );
-} else if (celsious > 100) {
-  console.log(
-    `fire alert! the tempreture is ${celsious.toFixed(2)} ${degreeSymbol}f`
-  );
-} else {
-  console.log("the tempreture is normal");
-}
+// const degreeSymbol = "\u00b0";
+// const fahrenheit = -2;
+// const celsious = ((fahrenheit - 32) * 5) / 9;
+// if (celsious < 0) {
+//   console.log(
+//     `it is freezing! the temperature is ${celsious.toFixed(2)} ${degreeSymbol}f`
+//   );
+// } else if (celsious > 100) {
+//   console.log(
+//     `fire alert! the tempreture is ${celsious.toFixed(2)} ${degreeSymbol}f`
+//   );
+// } else {
+//   console.log("the tempreture is normal");
+// }
