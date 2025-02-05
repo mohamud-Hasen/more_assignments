@@ -195,18 +195,25 @@
 // const result = twoSum(nums, target);
 // console.log(`indices: [${result}]`
 
-const twoSum = function (nums, target) {
-  for (let i = 0; i < nums.length; i++) {
-    for (let j = 0; j < nums.length; j++) {
-      if (nums[i] + nums[j] === target) {
-        return [i, j];
-      }
-    }
-  }
-  return [];
-};
+// const twoSum = function (nums, target) {
+//   for (let i = 0; i < nums.length; i++) {
+//     for (let j = 0; j < nums.length; j++) {
+//       if (nums[i] + nums[j] === target) {
+//         return [i, j];
+//       }
+//     }
+//   }
+//   return [];
+// };
 
-const nums = [2, 7, 11, 15];
-const target = 9;
-const result = twoSum(nums, target);
-console.log(`indices: [${result}]`);
+// let twoSum = function (nums, target) {
+//   const numMap = {};
+//   for (let i = 0; i < nums.length; i++) {
+//     if(numMap.hasOwnProperty(Complent)) {
+//   }
+// };
+
+// const nums = [2, 7, 11, 15];
+// const target = 9;
+// const result = twoSum(nums, target);
+// console.log(`indices: [${result}]`);
